@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 1, 2022, 10:19:41 PM
+    Author     : 
+*/
+
+
+
+html{
+    margin: 0px 100px 0px 100px;
+}
+ nav {
+    overflow: hidden;
+    background-color: #474448;
+}  
+nav img{
+    float: left;
+    height: 75px;
+}
+nav ul{
+    float: right;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    background-color: #BE8A74;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 25px;
+    color: #474448;
+    padding: 10px 14px;
+ 
+}
+
+nav ul li ul {
+    float: left;
+    display: none;
+    position: absolute;
+    background-color: #BE8A74;
+}
+
+nav ul li:hover ul{
+    display: block; 
+}
+p {
+    font-family: serif;
+    font-size: 19px;
+}
+
+h1{
+    float: left;
+    text-shadow: -4px 4px 6px dimgrey;
+    font-size: 300%;
+    margin-left: 30px;
+    color: #EEE2DF;
+} 
+           
+
+
+.box {
+    text-align: left;
+    background-image: url(Peoria2.jfif);
+    padding: 100px; height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+#wel {
+    list-style: none;
+}
+
+.pho img { 
+    float: right;
+}
+.Album p{
+    font-size: 15px;
+}
+
+footer{ 
+    background-color: #474448; 
+    text-align: center; 
+    color: white;
+    padding: 4px;
+
+}
+
+
+#Draw { width: 400px;
+          border: 1px solid #999999;
+          border-collapse: collapse }
+td      { width: 4px; height: 4px; margin: 0px; padding: 0px; }
+.blue   { background-color: blue; }
+.red    { background-color: red; }
